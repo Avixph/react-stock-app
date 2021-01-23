@@ -18,8 +18,7 @@ function StockSearch({ browseStock, setBrowseStock }) {
 
   return (
     <div className="stock-search">
-      <form action="" className="searchbar">
-        <h3>Browse</h3>
+      <form action="" className="search-bar">
         <input type="text" placeholder="Search..." onChange={handleChange} />
         <button type="submit" onClick={handleSearch}>
           🔍

@@ -1,0 +1,30 @@
+:root {
+  --first-color: #4bbd96;
+  --second-color: #d1674a;
+  --third-color: #be553f;
+  --fourth-color: #f0ebe6;
+  --fifth-color: #ffffff;
+  --sixth-color: #616161;
+  --shadow: 6px 6px 9px #00000031, -6px -6px 9px #a3a0a013;
+  --shadow-inset: inset 6px 6px 9px #00000031, inset -6px -6px 9px #a3a0a025;
+}
+
+.app-view {
+  border: 3px solid var(--fourth-color);
+  padding: 1em;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  flex-basis: 30%;
+  background-color: transparent;
+}
+
+.person-name {
+  font-size: 30px;
+}
+
+.order-items {
+  color: var(--second-color);
+}

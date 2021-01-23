@@ -1,0 +1,50 @@
+:root {
+  --first-color: #4bbd96;
+  --second-color: #d1674a;
+  --third-color: #be553f;
+  --fourth-color: #f0ebe6;
+  --fifth-color: #ffffff;
+  --sixth-color: #616161;
+  --shadow: 6px 6px 9px #00000031, -6px -6px 9px #a3a0a013;
+  --shadow-inset: inset 6px 6px 9px #00000031, inset -6px -6px 9px #a3a0a025;
+}
+
+.stock-search {
+  overflow: hidden;
+  background-color: var(--fourth-color);
+}
+
+.search-bar input {
+  width: 250px;
+  padding: 14px;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  align-items: center;
+  border: 3px solid var(--sixth-color);
+  background-color: var(--fifth-color);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  transition: 0.2s ease-out;
+}
+
+.search-bar button {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  background-color: var(--second-color);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  font-weight: 600;
+  transition: 0.2s ease-out;
+}
+.search-bar button:active {
+  box-shadow: var(--shadow-inset);
+  background-color: var(--third-color);
+}

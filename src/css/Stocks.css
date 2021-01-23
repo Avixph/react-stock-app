@@ -1,0 +1,10 @@
+:root {
+  --first-color: #4bbd96;
+  --second-color: #d1674a;
+  --third-color: #be553f;
+  --fourth-color: #f0ebe6;
+  --fifth-color: #ffffff;
+  --sixth-color: #616161;
+  --shadow: 6px 6px 9px #00000031, -6px -6px 9px #a3a0a013;
+  --shadow-inset: inset 6px 6px 9px #00000031, inset -6px -6px 9px #a3a0a025;
+}
