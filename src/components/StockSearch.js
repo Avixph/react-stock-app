@@ -21,7 +21,7 @@ function StockSearch({ browseStock, setBrowseStock }) {
       <form action="" className="search-bar">
         <input type="text" placeholder="Search..." onChange={handleChange} />
         <button type="submit" onClick={handleSearch}>
-          🔍
+          ➔
         </button>
       </form>
     </div>

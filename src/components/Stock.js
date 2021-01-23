@@ -7,10 +7,16 @@ function Stock({ symbol, companyName, latestPrice, changePercent }) {
   return (
     <div className="app-view">
       <div className="single-company-stock">
-        <h2 className="company-stock-symbol">{symbol}</h2>
-        <h5 className="company-name">{companyName}</h5>
-        <p className="company-stock-price">{latestPrice}</p>
-        <p className={percentageColor}>{(changePercent * 100).toFixed(2)}%</p>
+        <div className="company-info">
+          <h2 className="company-stock-symbol">{symbol}</h2>
+          <h5 className="company-name">{companyName}</h5>
+        </div>
+        <div className="stock-info">
+          <p className="company-stock-price">{latestPrice}</p>
+          <p className={percentageColor}>
+            {changePercent ? `${(changePercent * 100).toFixed(2)}%` : ""}
+          </p>
+        </div>
       </div>
     </div>
   );
